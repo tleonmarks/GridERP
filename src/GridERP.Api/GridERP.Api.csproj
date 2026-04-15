@@ -8,10 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.7" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GridERP.Application\GridERP.Application.csproj" />
+    <ProjectReference Include="..\GridERP.Infrastructure\GridERP.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

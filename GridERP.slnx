@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="GridERP.Api/GridERP.Api.csproj" />
+  <Project Path="src/GridERP.Api/GridERP.Api.csproj" />
+  <Project Path="src/GridERP.Application/GridERP.Application.csproj" />
+  <Project Path="src/GridERP.Domain/GridERP.Domain.csproj" />
+  <Project Path="src/GridERP.Infrastructure/GridERP.Infrastructure.csproj" />
 </Solution>
